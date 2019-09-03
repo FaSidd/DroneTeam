@@ -1,4 +1,10 @@
-
+"""
+Fahad Siddiqi
+---------------------------------------------------------------------------------------------
+- A program to convert decimal GPS coordinates and back for generating a path for UH Drone Team
+- Output exports to generate a text file of a list of GPS coordinates 
+----------------------------------------------------------------------------------------------
+"""
 def gpsToFeet(x):
     #converting the gps coordinates to km
     x = x*(10000/90)
